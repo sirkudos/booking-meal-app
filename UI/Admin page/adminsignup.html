@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Signup</title>
+    <link rel="stylesheet" href="adminsignup.css">
+    <link rel="stylesheet" href="../homepage/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+        <div class="topnav" id="myTopnav">
+                <a href="/UI/homepage/index.html" class="active left">Home</a>
+                <a href="#menu" class="left">Menu</a>
+                <a href="adminsignup.html" class="right">Sign Up</a>
+                <a href="adminlogin.html" class="right">Login</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+            
+
+
+    <div class="wrap">
+        <h2>Sign up</h2>
+        <form >
+            <input type="text" placeholder="First Name" required>
+            <input type="text" placeholder="Last Name" required>
+            <input type="text" placeholder="Username" required>
+            <input type="email" placeholder="email address" required>
+            <input type="tel" placeholder="Phone Number" pattern="[0-9]{11}" required>
+            <input type="password" placeholder="choose password" minlength="8" required>
+            <input type="submit" value="submit" >
+        </form>
+    </div>
+  <script src="nav.js"></script>
+</body>
+</html>

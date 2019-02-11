@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>user home page</title>
+    <!-- <link rel="stylesheet" href="userlogin.css"> -->
+    <link rel="stylesheet" href="orderhomepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+        <div class="topnav" id="myTopnav">
+                <a href="index.html" class="active left">Home</a>
+                <a href="#menu" class="left">Menu</a>
+                <!-- <a href="usersignup.html" class="right">Sign Up</a> -->
+                <a href="userlogin.html" class="right">Logout</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+
+              <hr>
+
+    <div>
+          <h1>Submit your order to chart</h1> 
+        <form id="form-class">
+            <div class="container">
+                    <input type="text" id="food-id" placeholder="Food Id Number"></br>
+                    <input type="text" id="food-name" placeholder="Name of food"></br>
+                    <input type="number" id="food-price" placeholder="Food price"></br>
+                    <input type="number" id="food-quantity" placeholder="Number of plates"></br>
+                    <input type="submit" id="order-submit" value="submit">
+            </div>
+            
+        </form>
+    </div>
