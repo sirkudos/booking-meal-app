@@ -48,7 +48,7 @@ body {
       
       font-size: 25px;
       margin:auto;
-      margin-top: 250px;
+      margin-top: 80px;
       max-width: 250px;
       border: 1px solid rgb(61, 59, 59);
       padding: 25px;
@@ -90,6 +90,7 @@ input [type=submit]{
   border-radius: 5px;
   color: white;
   margin-top: 20px;
+  /* margin-bottom: 40px; */
 }
 
 
@@ -98,6 +99,14 @@ background: rgb(230, 153, 10);
 }
 
 
+h2{
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* form{
+  margin-bottom: 50px;
+} */
 
 
 

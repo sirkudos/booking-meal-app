@@ -41,6 +41,33 @@ body {
       float:left;
   }
 
+
+
+  table{
+    width:50%;
+    margin:auto;
+    text-align:center;
+    font-size: 12px;
+    margin-top:40px;
+    border: 1px solid black;
+   
+  }
+  
+  table,tr,td,th{
+    border: 1px solid black;
+  }
+  
+  h1{
+    margin: auto;
+    text-align:center;
+    margin-top:40px;
+    font-size:23px;
+  }
+  
+  #main a{
+    text-decoration: none;
+  }
+
   
   @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
