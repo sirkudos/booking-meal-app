@@ -27,7 +27,7 @@ const mealController = {
         status: 'success',
         data: createdMeasl
           
-      }).status(201)
+      }).status(200)
 
     },
 

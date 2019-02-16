@@ -7,7 +7,8 @@ const validMeals = dummyData.meals.map((meal)=>{
     newMeal.id = meal.id;
     newMeal.name = meal.name;
     newMeal.size = meal.size;
-    newMeal.price = meal.price
+    newMeal.price = meal.price;
+    return newMeal
 });
   return validMeals;
   },
@@ -25,7 +26,7 @@ const validMeals = dummyData.meals.map((meal)=>{
   },
 
   getMeal(id) {
-      const meal = dummyData.meals.find(meal => meal.id = id);
+      const meal = dummyData.meals.find(meal => meal.id == id);
       return meal || {};
   }
 
