@@ -135,3 +135,12 @@ table{
 #x2width{
   width: 30px; 
 }
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }

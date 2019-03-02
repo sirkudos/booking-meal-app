@@ -4,14 +4,14 @@ export default {
       id: 1,
       name: 'Fried Rice',
       size: 'Medium',
-      price: '450'
+      price: '450',
     },
 
     {
       id: 2,
       name: 'Beans',
       size: 'Small',
-      price: '550'
+      price: '550',
     },
 
     {
@@ -25,8 +25,8 @@ export default {
       id: 4,
       name: 'Okpa',
       size: 'Medium',
-      price: '450'
-    }
+      price: '450',
+    },
 
- ]
-}
+  ],
+};
