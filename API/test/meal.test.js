@@ -40,7 +40,7 @@ describe('Meal API\'s test', () => {
   describe('Fetch all meals', () => {
     it('should return all meals', (done) => {
       request(app)
-        .get('/', mealController.fetchAllMeals)
+        .get('/api/v1/meals')
         .expect(200)
         .expect((res) => {
           expect(typeof res.body)
