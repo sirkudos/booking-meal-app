@@ -6,7 +6,7 @@
   "scripts": {
     "build": "rimraf dist/ && babel ./API --out-dir dist/ --ignore ./tests,./public, --copy-files",
     "start": "nodemon --exec babel-node API/index.js",
-    "test": "mocha"
+    "test": "nyc mocha API/test/*.test.js --exit --require @babel/register"
   },
   "repository": {
     "type": "git",
@@ -31,8 +31,10 @@
     "@babel/register": "^7.0.0",
     "body-parser": "^1.18.3",
     "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
     "express": "^4.16.4",
     "mocha": "^6.0.2",
+    "nyc": "^13.3.0",
     "rimraf": "^2.6.3",
     "supertest": "^3.4.2"
   }
